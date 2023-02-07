@@ -1,2 +1,5 @@
 ### GET USERS
 GET http://localhost:3000/api/users
+
+### GET BUDGET ITEMS
+GET http://localhost:3000/api/budget-items
