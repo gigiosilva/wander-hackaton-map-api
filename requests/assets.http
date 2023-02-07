@@ -1,0 +1,26 @@
+### GET ASSETS
+GET http://localhost:3000/api/assets
+
+### GET ASSET BY ID
+GET http://localhost:3000/api/assets/590b4524-abbe-4cdb-8405-7f5c4c35e417
+
+### DELETE ASSET BY ID
+DELETE http://localhost:3000/api/assets/590b4524-abbe-4cdb-8405-7f5c4c35e417
+
+### UPDATE ASSET
+PUT http://localhost:3000/api/assets/dfaafbf4-2ddf-468a-a378-4e6a8f4ea6aa
+content-type: application/json
+
+{
+  "description": "You can choose by choosing chosen by you"
+}
+
+### ADD ASSET
+POST http://localhost:3000/api/assets
+content-type: application/json
+
+{
+  "title": "How to choose friend?",
+  "description": "You can choose by choosing",
+  "category": "Friends"
+}
