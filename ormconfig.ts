@@ -19,5 +19,5 @@ export default {
     migrationsDir: 'database/migrations',
   },
   synchronize: false,
-  migrationsRun: true,
+  migrationsRun: false,
 } as TypeOrmModuleOptions;
